@@ -48,13 +48,13 @@ const AddReview = () => {
 
   return (
     <div>
-      <div className="bg-white lg:w-1/2 mx-auto mb-10 p-5 shadow-2xl rounded-lg">
+      <div className="bg-white mx-auto mb-10 p-5 shadow-2xl rounded-lg">
         <form onSubmit={handleReviewPost}>
           <label
             className="text-2xl text-black font-serif font-semibold my-3 inline-block"
             htmlFor="review"
           >
-            Add Your Review
+            Add Review
           </label>{" "}
           <br />
           <textarea
@@ -66,7 +66,7 @@ const AddReview = () => {
           ></textarea>
           <div>
             <button
-              className="px-16 py-2 rounded-l-lg rounded-r-lg my-7 font-semibold font-serif inline-block bg-[#141414] text-white hover:bg-[#3e3c3c]"
+              className="px-16 py-2 rounded-l-lg rounded-r-lg my-7 font-semibold font-serif inline-block bg-sky-700 text-white hover:bg-sky-500"
               type="submit"
             >
               Submit

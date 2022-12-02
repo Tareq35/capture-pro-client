@@ -1,6 +1,6 @@
-# Project Name: ATTORNA
+# Getting Started with Create React App
 
-# Live-Site-Link: https://attorna-law.web.app/
+Live site link [Capture Pro](https://capture-pro-f77fd.web.app).
 
 # Added Features:
 
@@ -17,4 +17,3 @@
 3. Daisy UI
 4. FontAwesome Icons
 5. React Spinners
-6. React Phot View

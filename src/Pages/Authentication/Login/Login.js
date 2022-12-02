@@ -90,7 +90,38 @@ const Login = () => {
         <HashLoader className="m-auto" color="#36d7b7" />
       ) : (
         <div>
-         
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <p className="text-2xl font-bold font-mono mb-0">Login</p>
+              <br />
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="Your Email"
+              />
+              <br />
+              <input
+                type="password"
+                name="password"
+                id=""
+                placeholder="Password"
+              />
+              <br />
+              <button
+                className="btn btn-ghost w-full bg-[#a19f98] font-semibold my-4 border-0"
+                type="submit"
+              >
+                LOG IN
+              </button>
+              <p>
+                Don't have an account?
+                <Link className="text-[tomato] underline ml-2" to="/register">
+                  Create an account
+                </Link>
+              </p>
+            </div>
+          </form>
           <button
             onClick={handleGoogleLogin}
             className="flex items-center btn-google"

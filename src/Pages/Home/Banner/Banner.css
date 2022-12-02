@@ -1,31 +1,8 @@
 .banner {
   background: rgba(0, 0, 0, 0.7)
-    url("https://img.freepik.com/premium-photo/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background_1418-2118.jpg?w=1380");
+    url("https://i.ibb.co/PrbkhkS/nathan-dumlao-5-BB-at-DT4o-A-unsplash.jpg");
   height: 80vh;
   background-size: cover;
-  background-blend-mode: darken;
+  background-blend-mode: normal;
   border-radius: 4px;
-}
-.banner-section {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-.banner-img {
-  object-fit: cover;
-  border-top: 5px solid #edb578;
-  border-right: 5px solid #edb578;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 10px;
-}
-
-@media screen and (max-width: 576px) {
-  .banner {
-    height: full;
-  }
-  .banner-section {
-    grid-template-columns: repeat(1fr);
-  }
 }

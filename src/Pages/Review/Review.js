@@ -43,7 +43,7 @@ const Review = ({ id, serviceName }) => {
           </p>
           <Link
             to={`/addReview/${id}`}
-            className="px-6 py-2 rounded-l-lg font-serif rounded-r-lg text-[15px] font-semibold mt-4 inline-block bg-[#141414] text-white hover:bg-[#3e3c3c]"
+            className="px-6 py-2 rounded-l-lg font-serif rounded-r-lg text-[15px] font-semibold mt-4 inline-block bg-sky-700 text-white hover:bg-sky-500"
           >
             Add Your Review
           </Link>

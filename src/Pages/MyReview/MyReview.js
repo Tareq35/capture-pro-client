@@ -52,7 +52,7 @@ const MyReview = () => {
     <div>
       {reviews.length === 0 ? (
         <p className=" text-2xl font-serif font-semibold">
-          No Review Found. Please! Add Review.
+          No Review Found. Please! Add a Review.
         </p>
       ) : (
         <div className="grid lg:grid-cols-2 gap-6">

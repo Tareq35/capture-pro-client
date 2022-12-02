@@ -1,0 +1,5 @@
+.MyReview-card {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  gap: 5px;
+}

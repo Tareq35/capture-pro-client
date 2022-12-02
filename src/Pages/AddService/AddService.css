@@ -1,0 +1,16 @@
+.add-service {
+  text-align: start;
+}
+.add-service label {
+  color: black;
+  margin: 15px 0px 5px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 17px;
+}
+.add-service input {
+  width: 100%;
+  background-color: rgb(242, 238, 238);
+  padding: 10px 5px;
+  border-radius: 8px;
+}

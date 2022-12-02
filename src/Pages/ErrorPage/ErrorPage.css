@@ -1,0 +1,36 @@
+.error-page {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.error-page h1 {
+  font-size: 100px;
+  color: #06044d;
+  margin-bottom: 0;
+}
+.error-page p {
+  color: #3503b8;
+  margin-top: 10px;
+}
+.btn-error {
+  background: linear-gradient(#3503b8, #06044d);
+  border-radius: 0px 50px;
+  padding: 10px 30px;
+  border: none;
+  font-weight: 600;
+}
+.btn-error a {
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .error-page {
+    padding: 10px;
+  }
+  .error-page h1 {
+    font-size: 50px;
+  }
+}

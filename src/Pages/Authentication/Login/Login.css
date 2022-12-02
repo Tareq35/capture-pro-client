@@ -1,0 +1,18 @@
+.btn-google {
+  border: 1px solid rgb(164, 160, 160);
+  width: 400px;
+  margin: 20px auto;
+  padding: 5px 0px;
+  border-radius: 50px;
+}
+.btn-google span {
+  font-weight: 600;
+}
+.btn-google:hover {
+  color: tomato;
+}
+@media screen and (max-width: 576px) {
+  .btn-google {
+    width: 100%;
+  }
+}

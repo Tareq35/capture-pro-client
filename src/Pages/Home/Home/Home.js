@@ -22,7 +22,7 @@ const Home = () => {
         </div>
         <Link
           to={`/services`}
-          className="px-16 py-2 rounded-l-lg rounded-r-lg my-7 font-semibold font-serif inline-block bg-sky-700 text-white hover:bg-sky-500"
+          className="px-16 py-3 rounded-l-lg rounded-r-lg my-7 font-semibold font-serif inline-block bg-sky-700 text-white hover:bg-sky-500"
         >
           SHOW ALL
         </Link>

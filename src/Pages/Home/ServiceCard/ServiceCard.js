@@ -18,7 +18,7 @@ const ServiceCard = ({service}) => {
         <p className=" text-justify">{description.slice(0, 100)}....</p>
         <Link
           to={`/services/${_id}`}
-          className="px-16 py-2 rounded-l-lg font-serif rounded-r-lg font-semibold mt-5 inline-block bg-[#141414] text-white hover:bg-[#3e3c3c]"
+          className="px-16 py-3 rounded-l-lg font-serif rounded-r-lg font-semibold mt-5 inline-block bg-sky-700 text-white hover:bg-sky-500"
         >
           View Details
         </Link>
